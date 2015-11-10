@@ -1,0 +1,25 @@
+{
+  "name": "ng-x2js",
+  "description": "An Angular wrapper for x2js",
+  "version": "1.0.1",
+  "main": "src/ng-x2js.js",
+  "authors": [
+    "Enatel Ltd"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular-x2js",
+    "xml2json",
+    "xml",
+    "json"
+  ],
+  "homepage": "https://github.com/driannaude/ng-x2js",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
