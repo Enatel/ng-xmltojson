@@ -1,10 +1,15 @@
 {
   "name": "ng-xmltojson",
   "description": "An Angular wrapper for x2js",
+<<<<<<< HEAD
   "version": "1.0.2",
   "main": "src/ng-x2js.js",
+=======
+  "version": "1.0.3",
+  "main": "src/ng-xmltojson.js",
+>>>>>>> c2b6782... Updated bower.json, package.json
   "authors": [
-    "Enatel Ltd"
+    "Drian Naude <drian.naude@enatel.net>"
   ],
   "license": "MIT",
   "keywords": [
@@ -13,7 +18,11 @@
     "xml",
     "json"
   ],
+<<<<<<< HEAD
   "homepage": "https://github.com/driannaude/ng-xmltojson",
+=======
+  "homepage": "https://github.com/Enatel/ng-xmltojson",
+>>>>>>> c2b6782... Updated bower.json, package.json
   "moduleType": [],
   "ignore": [
     "**/.*",
