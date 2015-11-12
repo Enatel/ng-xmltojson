@@ -21,5 +21,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "xmltojson": "^1.1.13"
+  }
 }
