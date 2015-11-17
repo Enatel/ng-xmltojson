@@ -24,7 +24,6 @@ module.exports = function (grunt) {
     bump: {
       options: {
         files: ['package.json', 'bower.json'],
-        updateConfigs: [],
         commit: true,
         commitMessage: 'Release v%VERSION%',
         commitFiles: ['package.json', 'bower.json', 'dist/<%= pkg.name %>.min.js', 'src/<%= pkg.name %>.js'],
@@ -96,8 +95,8 @@ module.exports = function (grunt) {
   grunt.registerTask('minify', ['uglify']);
   grunt.registerTask('verify', ['jsbeautifier:verify']);
   grunt.registerTask('format', ['jsbeautifier:default']);
-  grunt.registerTask('patch', ['jsbeautifier:verify', 'bump:patch', 'uglify']);
-  grunt.registerTask('minor', ['jsbeautifier:verify', 'bump:minor', 'uglify']);
-  grunt.registerTask('major', ['jsbeautifier:verify', 'bump:major', 'uglify']);
+  grunt.registerTask('patch', ['jsbeautifier:verify', 'bump-only:patch', 'uglify', 'bump-commit']);
+  grunt.registerTask('minor', ['jsbeautifier:verify', 'bump-only:minor', 'uglify', 'bump-commit']);
+  grunt.registerTask('major', ['jsbeautifier:verify', 'bump-only:major', 'uglify', 'bump-commit']);
 
 };

@@ -24,7 +24,7 @@
         return false;
       }
       // Return the Object if it is valid.
-      return jsonObject;
+      return jsonObj;
     };
 
     self.json2xml = function (jsonObject, config) {
