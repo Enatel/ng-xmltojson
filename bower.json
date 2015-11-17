@@ -1,7 +1,7 @@
 {
   "name": "ng-xmltojson",
   "description": "An Angular wrapper for x2js",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "src/ng-xmltojson.js",
   "authors": [
     "Drian Naude <drian.naude@enatel.net>"
